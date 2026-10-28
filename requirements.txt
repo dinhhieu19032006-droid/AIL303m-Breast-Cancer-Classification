@@ -1,0 +1,21 @@
+# Môi trường mục tiêu: Python 3.13.9 (Conda base)
+# Cài đặt: python -m pip install -r requirements.txt
+
+# Xử lý và phân tích dữ liệu
+numpy>=2.2,<3
+pandas>=2.2,<4
+
+# Machine Learning
+scikit-learn>=1.7,<2
+
+# Trực quan hóa
+matplotlib>=3.10,<4
+seaborn>=0.13,<1
+
+# Notebook Jupyter
+jupyterlab>=4.4,<5
+ipykernel>=6.30,<7
+nbformat>=5.10,<6
+
+# Kiểm thử và chất lượng
+pytest>=8,<10

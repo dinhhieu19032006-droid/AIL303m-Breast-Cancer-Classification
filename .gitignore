@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Môi trường và thông tin cục bộ
+.venv/
+.env
+.docx_review/
+
+# Dữ liệu và kết quả dẫn xuất
+data/processed/*
+!data/processed/README.md
+!data/processed/breast_cancer_clean.csv
+data/splits/*
+!data/splits/README.md
+outputs/*
+!outputs/README.md
